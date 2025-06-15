@@ -1,11 +1,11 @@
 import express from 'express';
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
-import connectDB from './config/dbConnect.js';
-import authRouter from './routes/auth.routes.js';
-import productRouter from './routes/product.routes.js';
-import categoryRouter from './routes/category.routes.js';
-import subCategoryRouter from './routes/subCategory.routes.js';
+import connectDB from '../config/dbConnect.js';
+import authRouter from '../routes/auth.routes.js';
+import productRouter from '../routes/product.routes.js';
+import categoryRouter from '../routes/category.routes.js';
+import subCategoryRouter from '../routes/subCategory.routes.js';
 import dotenv from 'dotenv';
 import serverless from 'serverless-http';
 
